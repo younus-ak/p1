@@ -1,13 +1,17 @@
                 body{
-                    font-family: 'Montserrat', sans-serif;
+                margin: 0;
+                font-family: 'Montserrat', sans-serif;
                 font-size: larger;
                 color: rgb(48, 48, 48);
                 }
 
-.about{
-    font-size: 16px;
-    font-style: italic;
-}
+                .about{
+                font-size: 16px;
+                font-style: italic;
+
+                 }
+
+                 
                 .About{
                     font-size: 12px;
                 }
@@ -15,19 +19,39 @@
                 .n{
                     font-size:40px;
                     font-family: 'Fasthand', cursive;
-                    color: #460d7c;        }
+                    color: #098bbe;        }
 
                 .topleft{
-            width: 40%;
-            float: left;
-            margin-left: 2%;
-            padding-left: 2%;
+                    width: 40%;
+                    float: left;
+                    margin-left: 2%;
+                    padding-left: 2%;
 
                 }
 
                 .topleft img{
                     width: 100%;
                     margin-left: 20%;
-            padding-left: 5%;
+                    padding: 5%;
+                }
+
+                .top{
+                    background-image: url("E:\Web Dev programming hero\Project\p1\top-banner.png") ;
+                    background-repeat: no-repeat;
+
                 }
             
+                    section{
+                        height: 500px;
+
+                    }
+
+                    .link{
+                        text-decoration: none;
+background-image: linear-gradient(#0970cfc5,rgb(2, 49, 104));
+padding: 5px 5px;
+border-radius: 5px;
+color: white;
+font-weight: bold;
+
+                    }
